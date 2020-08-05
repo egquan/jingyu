@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+}
+/*定义字体*/
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+/*首页边距*/
+.wrap > .index-container {
+    padding: 15px 15px 20px;
+}
+
+.wrap > .container {
+    padding: 40px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/*面包屑导航*/
+.breadcrumb {
+    padding: 10px 10px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*媒体列表*/
+.media-left > a > img {
+    width: 150px;
+    height: 75px;
+}
+
+.media-body {
+    height: 75px;
+}
+
+.media-body > .media-heading {
+    width: 100%;
+    height: 19px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.media-body > p {
+    width: 100%;
+    height: 56px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*首页轮班*/
+.carousel-indicators {
+    bottom: -10px;
+}
+
+.carousel-caption {
+    bottom: 0px;
+}
+
+#carousel-example-generic {
+    margin-top: 51px;
+    height: 150px;
+}
+
+#carousel-example-generic .carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+/*文章页面*/
+.article-view > .page-header {
+    margin: 10px 15px 10px;
+}
+
+.article-view > .page-header > h1 {
+    margin-top: 10px;
+}
+
+.article-view img {
+    max-width: 100%;
+}
+
+.article-view video {
+    max-width: 100%;
+}
+
+.article-view h1 {
+    font-size: 24px;
+}
+
+@media (min-width: 767px) {
+    /*移动端轮播*/
+    #carousel-example-generic {
+        margin-top: 51px;
+        height: 350px;
+    }
+
+    #carousel-example-generic .carousel-inner > .item > a > img {
+        width: 100%;
+        height: 350px;
+    }
+
+    /*媒体列表*/
+    .media-left > a > img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .media-body {
+        height: 100px;
+    }
+
+    /*文章页标题*/
+    .article-view h1 {
+        font-size: 36px;
+    }
+}

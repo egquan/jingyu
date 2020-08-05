@@ -1,0 +1,79 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "admin/main/info-board"
+  },
+  "logoInfo": {
+    "title": "摘星 LIVE",
+    "image": "../images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "文章管理",
+      "icon": "fa fa-language",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "分类管理",
+          "href": "admin/type",
+          "icon": "fa fa-list",
+          "target": "_self"
+        },
+        {
+          "title": "文章管理",
+          "href": "admin/article",
+          "icon": "fa fa-file-text-o",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "icon": "fa fa-user",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "后台用户",
+          "href": "admin/account",
+          "icon": "fa fa-users",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "全站配置",
+      "icon": "fa fa-gears",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "站点设置",
+          "href": "admin/config/site-info",
+          "icon": "fa fa-globe",
+          "target": "_self"
+        },
+        {
+          "title": "首页轮播",
+          "href": "admin/config/banners",
+          "icon": "fa fa-picture-o",
+          "target": "_self"
+        },
+        {
+          "title": "OSS配置",
+          "href": "admin/config/aliyun-oss",
+          "icon": "fa fa-cloud-upload",
+          "target": "_self"
+        },
+        {
+          "title": "附件管理",
+          "href": "admin/attachment",
+          "icon": "fa fa-hdd-o",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
